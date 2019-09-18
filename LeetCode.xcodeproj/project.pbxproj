@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A95B6602331B7900046F0F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A95B65F2331B7900046F0F0 /* main.cpp */; };
+		8A95B66C2331BC380046F0F0 /* FindDuplicateNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A95B66B2331BC380046F0F0 /* FindDuplicateNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		8A95B65C2331B7900046F0F0 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A95B65F2331B7900046F0F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8A95B66B2331BC380046F0F0 /* FindDuplicateNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindDuplicateNumber.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		8A95B65E2331B7900046F0F0 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				8A95B6672331BB3E0046F0F0 /* 287FindDuplicateNumber */,
 				8A95B65F2331B7900046F0F0 /* main.cpp */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		8A95B6672331BB3E0046F0F0 /* 287FindDuplicateNumber */ = {
+			isa = PBXGroup;
+			children = (
+				8A95B66B2331BC380046F0F0 /* FindDuplicateNumber.cpp */,
+			);
+			path = 287FindDuplicateNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A95B6602331B7900046F0F0 /* main.cpp in Sources */,
+				8A95B66C2331BC380046F0F0 /* FindDuplicateNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
